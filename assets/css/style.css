@@ -1578,3 +1578,25 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 180px; 
   object-fit: cover;
 }
+/* ===== Skills Section Visibility Fix ===== */
+
+.skills-list {
+  background: rgba(20, 20, 30, 0.9);
+  border-radius: 16px;
+}
+
+.skills-item {
+  color: #ffffff;               /* Bright white text */
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.skills-item strong {
+  color: var(--orange-yellow-crayola); /* Heading highlight */
+  font-weight: 600;
+}
+
+.skills-item::marker {
+  color: var(--orange-yellow-crayola);
+}
