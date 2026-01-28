@@ -1,611 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mir Aqib Mushtaq</title>
-
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
-
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <main>
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/Aqib.jpg"
-              alt="Richard hanrick"
-              width="80"
-            />
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Mir Aqib Mushtaq</h1>
-
-            <p class="title">
-  Full Stack Web & Software Developer <br>
-  ML Enthusiast
-</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-
-                <a href="mailto:miraqib4134@gmail.com" class="contact-link"
-                  >miraqib4134@gmail.com</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+916005069208" class="contact-link"
-                  >+91 6005069208</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="2003-03-03">20-03-2001</time>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Anantnag</address>
-              </div>
- <ul class="social-list">
-  <li class="social-item">
-    <a
-      href="https://github.com/Miraqib20"
-      class="social-link"
-      aria-label="GitHub profile of Mir Aqib Mushtaq"
-    >
-      <ion-icon name="logo-github"></ion-icon>
-    </a>
-  </li>
-  <li class="social-item">
-    <a
-      href="https://www.linkedin.com/in/mir-aqib-mushtaq-41463516b/"
-      class="social-link"
-      aria-label="LinkedIn profile of Mir Aqib Mushtaq"
-    >
-      <ion-icon name="logo-linkedin"></ion-icon>
-    </a>
-  </li>
-</ul>
-
-        </div>
-      </aside>
-
-      <div class="main-content">
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link><p>Projects</p></button>
-            </li>
-          </ul>
-        </nav>
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-
-          <!-- <section class="about-text">
-            <p>
-              Completed Masters in Information Technology (MSC IT) from NIELIT
-              Srinagar, with a passion for web development and a solid
-              foundation in multiple programming languages and technologies.
-            </p>
-          </section> -->
-          <section class="about-text">
-            <p>
-              I am Mir Aqib Mushtaq, a passionate software developer who
-              recently completed Masters in Information Technology (MSC IT) from
-              NIELIT Srinagar(UNIVERSITY OF KASHMIR). With a strong foundation in computer science
-              fundamentals, I specialize in creating efficient and user-friendly
-              web solutions. My academic journey has equipped me with
-              comprehensive knowledge in various programming languages, database
-              management systems, and modern web technologies.
-            </p>
-            <p>
-              Through my coursework and personal projects, I've developed
-              expertise in both frontend and backend development, along with a
-              solid understanding of software development principles. I'm
-              particularly skilled in problem-solving and creating scalable
-              solutions that meet modern industry standards.
-            </p>
-          </section>
-
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg"
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web Development</h4>
-                  <p class="service-item-text">
-                    I specialize in creating responsive and dynamic web
-                    applications using modern technologies like HTML5, CSS3,
-                    JavaScript, ReactJs, MongoDB, Python,
-                    Flask, MySQL and various frameworks. My focus is on
-                    delivering clean, efficient code that ensures optimal
-                    performance and user experience. I have experience in both
-                    frontend development for creating intuitive user interfaces
-                    and backend development for robust server-side
-                    functionality.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="development icon"
-                    width="40"
-                  />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Software Development</h4>
-                  <p class="service-item-text">
-                    Beyond web development, I am proficient in software
-                    development using various programming languages and tools.
-                    My expertise includes database design and management, API
-                    development. I focus on writing maintainable, scalable code
-                    while following software development best practices and
-                    design patterns.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-          <!-- <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
-
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section> -->
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <buttonsclass="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </buttonsclass=>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
-
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
-
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title></h4>
-
-                <time datetime="2021-06-14"> </time>
-
-                <div data-modal-text>
-                  <p></p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  GOUSIA PUBLIC HIGH SCHOOL QAZIGUND. 
-                </h4>
-
-                <span>2013 — 2015</span>
-
-                <p class="timeline-text">
-                  I completed my high school education from GOUSIA PUBLIC HIGH SCHOOL QAZIGUND. 
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  GOVT.HIGHER SECONDRY SCHOOL Y.K PORA 
-                </h4>
-
-                <span>2015 — 2017</span>
-
-                <p class="timeline-text">
-                  I completed my higher secondary education(MED+NON-MED) from Govt Higher Secondary School in Y.K PORA.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">DR SM IQBAL COLLEGE SRINAGAR</h4>
-
-                <span>2018 — 2022</span>
-
-                <p class="timeline-text">
-                 I completed my BSC IT (Bachelors of Science in Information and Technology) from DR SM Iqbal college Srinagar.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">NIELIT SRINAGAR(UNIVERSITY OF KASHMIR)</h4>
-
-                <span>2022 — 2024</span>
-
-                <p class="timeline-text">
-                 I completed my MSC IT (Masters  Of Science in Information and Technology) from NIELIT Srinagar.
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="briefcase"></ion-icon>
-              </div>
-
-              <h3 class="h3">Experience</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <!-- <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">BCA</h4>
-
-                <span>2021 — 2024</span>
-
-                <p class="timeline-text">
-                  Completed BSC IT(Bachelors Of Science Information anf Technology) from NIELIT
-                  Srinagar..
-                </p>
-              </li> -->
-            </li>
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">XYZ</h4>
-
-              <span>one month js boot camp internship.</span>
-
-              <p class="timeline-text">Code with Random.dev</p>
-          </section>
-   <section class="skill">
-  <h3 class="h3 skills-title">Skills</h3>
-  <ul class="skills-list content-card">
-    <!-- Frontend Development -->
-    <li class="skills-item">💻<strong>Frontend Development:</strong> HTML5, CSS3, Responsive Design, Bootstrap, Tailwind CSS, JavaScript (ES6+), React.js</li>
-    
-    <!-- Backend Development -->
-    <li class="skills-item">⚙️<strong>Backend Development:</strong> Python, Flask, FastAPI, REST APIs, Authentication (JWT), Node.js</li>
-    
-    <!-- Databases -->
-    <li class="skills-item">🗄️<strong>Databases:</strong> MySQL, MongoDB</li>
-    
-    <!-- Tools & Version Control -->
-    <li class="skills-item">🛠️<strong>Tools & Version Control:</strong> Git, GitHub, Postman</li>
-    
-    <!-- Machine Learning -->
-    <li class="skills-item">🤖<strong>Machine Learning:</strong> Python for ML, NumPy, Pandas, Scikit-learn</li>
-    
-    <!-- Data Science -->
-    <li class="skills-item">📊<strong>Data Science:</strong> Data Analysis, Data Visualization (Matplotlib, Seaborn), Exploratory Data Analysis(EDA)</li>
-  </ul>
-</section>
-      <!-- <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 100%"></div>
-                </div> -->
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Projects</h2>
-          </header>
-
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project1.png"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Book Review  System</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src="./assets/images/project3.png" alt="Project 3">
-
-                  </figure>
-
-                  <h3 class="project-title">Event Management System</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-              <li
-              class="project-item active"
-              data-filter-item
-              data-category="web development"
-            >
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img
-                    src="./assets/images/project2.png"
-                    alt="orizon"
-                    loading="lazy"
-                  />
-                </figure>
-
-                <h3 class="project-title">Professional Dashboard</h3>
-
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project4.png"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Online Examination System</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project5.png"
-                      alt="dsm."
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Stop Watch</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project6.png"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Weather Application</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project7.png"
-                      alt="summary"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Calculator</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mir Aqib Mushtaq</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+<main>
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src="./assets/images/Aqib.jpg" alt="Mir Aqib Mushtaq" width="80" />
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title="Mir Aqib Mushtaq">Mir Aqib Mushtaq</h1>
+        <p class="title">
+          Full Stack Web & Software Developer <br />
+          Data Science & ML Enthusiast
+        </p>
       </div>
-    </main>
-    <script src="./assets/js/script.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+
+    <div class="sidebar-info_more">
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a href="mailto:miraqib4134@gmail.com" class="contact-link">miraqib4134@gmail.com</a>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+            <a href="tel:+916005069208" class="contact-link">+91 6005069208</a>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Birthday</p>
+            <time datetime="2001-03-20">20-03-2001</time>
+          </div>
+        </li>
+
+        <li class="contact-item">
+          <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+            <address>Anantnag, Kashmir, India</address>
+          </div>
+        </li>
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="https://github.com/Miraqib20" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/mir-aqib-mushtaq-41463516b/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="main-content">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <button class="navbar-link active" data-nav-link>About</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Resume</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Projects</button>
+        </li>
+      </ul>
+    </nav>
+
+    <article class="about active" data-page="about">
+      <header>
+        <h2 class="h2 article-title">About me</h2>
+      </header>
+
+      <section class="about-text">
+        <p>
+          I am Mir Aqib Mushtaq, an enthusiastic Full Stack Developer with a strong
+          backend orientation and a growing specialization in Data Science and
+          Machine Learning. I hold a Master’s degree in Information Technology
+          from the University of Kashmir and have a solid foundation in Python,
+          JavaScript, and modern web application development.
+        </p>
+
+        <p>
+          I have hands-on experience in building end-to-end, scalable applications
+          using React for the frontend and FastAPI/Flask for the backend. My work
+          includes designing secure RESTful APIs, implementing JWT-based
+          authentication, role-based access control, and managing databases such
+          as MySQL and MongoDB.
+        </p>
+
+        <p>
+          I have worked on advanced projects including a Digital Twin for Urban
+          Mobility and EV Analytics, full-stack event management systems,
+          multi-tenant authentication platforms, and online book review systems
+          with analytics. I also have practical experience in data analysis,
+          machine learning model integration, feature engineering, and
+          performance optimization.
+        </p>
+
+        <p>
+          Certified as a PCAP – Associate Python Programmer and IBM Machine
+          Learning with Python, I am passionate about building clean, secure, and
+          high-performance software systems that combine modern user interfaces
+          with robust backend architecture and data-driven intelligence.
+        </p>
+      </section>
+    </article>
+        <article class="resume" data-page="resume">
+      <header>
+        <h2 class="h2 article-title">Resume</h2>
+      </header>
+
+      <!-- Education -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">University of Kashmir</h4>
+            <span>2022 — 2024</span>
+            <p class="timeline-text">
+              Master of Science in Information Technology (MSc IT)
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">University of Kashmir</h4>
+            <span>2018 — 2022</span>
+            <p class="timeline-text">
+              Bachelor of Science in Information Technology (BSc IT)
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Experience -->
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Data Science Intern – Sabudh Foundation
+            </h4>
+            <span>May 2025 — December 2025</span>
+            <p class="timeline-text">
+              Worked on real-world Data Science and Machine Learning problems with
+              focus on data analysis, feature engineering, model building and
+              deployment. Developed a Digital Twin project for simulation and
+              predictive analytics using Python, Pandas, NumPy, and Scikit-learn.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Full Stack Developer Intern – Qudelta Solutions
+            </h4>
+            <span>2024 — Present</span>
+            <p class="timeline-text">
+              Building scalable web applications using React, FastAPI/Flask, and
+              MySQL/MongoDB. Designed secure REST APIs, implemented JWT
+              authentication, and worked on performance optimization and system
+              design.
+            </p>
+          </li>
+
+        </ol>
+      </section>
+
+      <!-- Skills -->
+      <section class="skill">
+        <h3 class="h3 skills-title">Skills</h3>
+        <ul class="skills-list content-card">
+          <li class="skills-item"><strong>Programming:</strong> Python, JavaScript (ES6+)</li>
+          <li class="skills-item"><strong>Frontend:</strong> HTML, CSS, React.js, Tailwind, Bootstrap</li>
+          <li class="skills-item"><strong>Backend:</strong> FastAPI, Flask, Node.js, REST APIs, JWT, RBAC</li>
+          <li class="skills-item"><strong>Databases:</strong> MySQL, MongoDB</li>
+          <li class="skills-item"><strong>Machine Learning:</strong> Scikit-learn, Pandas, NumPy, EDA</li>
+          <li class="skills-item"><strong>Tools:</strong> Git, GitHub, Docker, Postman</li>
+        </ul>
+      </section>
+    </article>
+    <article class="portfolio" data-page="portfolio">
+      <header>
+        <h2 class="h2 article-title">Projects</h2>
+      </header>
+
+      <section class="projects">
+        <ul class="project-list">
+
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project1.png" alt="Book Review System" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Book Review & Analytics System</h3>
+              <p class="project-category">Full Stack / Backend</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project3.png" alt="Event Management System" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Event Management System</h3>
+              <p class="project-category">Full Stack</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="data science">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project8.png" alt="Digital Twin Project" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Digital Twin – Urban Mobility (EV Analytics)</h3>
+              <p class="project-category">Data Science & Machine Learning</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project2.png" alt="Dashboard" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Professional Dashboard</h3>
+              <p class="project-category">Web Development</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="web development">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/project6.png" alt="Weather App" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Weather Application</h3>
+              <p class="project-category">Web Development</p>
+            </a>
+          </li>
+
+        </ul>
+      </section>
+    </article>
+  </div>
+</main>
+
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
+
